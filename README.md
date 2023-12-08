@@ -1,37 +1,37 @@
 # 小型音乐播放器
 
 #### 介绍
-这个东西只能读取放在文件里的音乐，只是一个初学者练手小qt项目。
+​	一个基于linux系统的小型音乐播放器，大佬勿喷，这个东西只能读取放在文件里的音乐，只是一个初学者练手小qt项目。
 
 #### 软件架构
-软件架构说明
+没有什么架构，主要用qt完成，代码全部是C++
+
+#### 功能简述
+
+1. 在执行的同时打开mplayer播放器播放音乐
+2. 实现上一曲、下一曲的切换
+3. 读取音乐文件夹并存储在QStringlist中，并写进QListwidget列表查看文件夹中的歌曲，点击列表中的歌曲名实现切换播放歌曲
+4. 中间部分显示歌曲信息、专辑图片并随着歌曲切换而切换
+5. 实现歌词滚动效果
+6. 实现换肤功能以及纯歌词模式显示
+7. 鼠标悬停在按钮以及音量进度条会显示提示
 
 
-#### 安装教程
+#### 编译运行
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+```c++
+qmake
+make
+./yx_music
+```
 
-#### 使用说明
+注：如果没有mplayer播放器，提前安装
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+```
+sudo apt update
+sudo apt install mplayer
+```
 
 #### 参与贡献
 
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
-
-
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+完全由本人一人编写完成，初学者，翔山代码，不喜勿喷

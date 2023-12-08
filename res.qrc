@@ -1,0 +1,31 @@
+<RCC>
+    <qresource prefix="/">
+        <file>image/list.png</file>
+        <file>image/lsat.png</file>
+        <file>image/next.png</file>
+        <file>image/play.png</file>
+        <file>image/mute.png</file>
+        <file>image/music.png</file>
+        <file>image/若把你-Kirsty刘瑾睿.png</file>
+        <file>image/fast-forward.png</file>
+        <file>image/rewind.png</file>
+        <file>image/不问ciaga(不问别离)-指尖笑.png</file>
+        <file>image/吹梦到西洲-黄诗扶、妖扬.png</file>
+        <file>image/春三月-司南.png</file>
+        <file>image/倒带-蔡依林.png</file>
+        <file>image/还是会想你-林达浪、h3R3.png</file>
+        <file>image/梦的光点-王心凌.png</file>
+        <file>image/耍把戏-阿禹ayy.png</file>
+        <file>image/我怀念的-孙燕姿.png</file>
+        <file>image/雾里-姚六一.png</file>
+        <file>image/background.png</file>
+        <file>image/skin.png</file>
+        <file>image/background_2.png</file>
+        <file>image/background_below.png</file>
+        <file>image/background_mid.png</file>
+        <file>image/background_top.png</file>
+        <file>image/main_pic.png</file>
+        <file>image/lyrics.png</file>
+        <file>image/lrc_back.png</file>
+    </qresource>
+</RCC>
